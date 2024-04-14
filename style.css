@@ -1,0 +1,298 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+body{
+    background-color: #277BC0;
+    
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+
+    display: flex;
+    
+    align-items: center;
+    height: 100px;
+    
+}
+.left{
+    display: flex;
+    margin: 0 30px;
+    font-size: 2.25rem;
+
+}
+.center{
+    display: flex;
+    margin: 0 250px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin: 0 20px;
+
+}
+nav ul li{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: coral ;
+
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: #FFD700;
+    color: black;   
+    padding: 10px 20px;
+    justify-content: flex-end;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+
+.destination{
+    background-color: blue;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 20px 00px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn1{
+    background-color: #FFD700;
+    color: blueviolet;   
+    padding: 10px 20px;
+    align-items: right;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 10px solid red;
+    margin: 0 20px;
+}
+
+
+.animation{
+    font-size: 2rem;
+    justify-content: center;
+    color: hotpink;
+    margin: 200px 300px;
+}
+
+#element{
+    color: orange;
+    font-size: 3rem;
+    display: inline-block;
+    margin: 30px 100px;
+    
+}
+
+
+.firstsec{
+    margin: 100px 300px;
+    font-size: 2rem;
+
+}
+
+
+.photo{
+
+    background-image: url(Scenery.jpg);
+    height: 50vw;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #ccc; /* Add a border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
+   
+    max-width: 500px; /* Limit width for better readability */
+}
+
+/* Style for the input field */
+.search input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* Style for the search button */
+.search button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the search button */
+.search button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.bg{
+    background-color: orange;
+    color: black;
+    display: flex;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 100px 20px;
+}
+.locations{
+    
+    height: 80vw;
+    font-size: 1.75rem;
+    color: azure;
+    margin: 20px 350px;
+    padding: 2px;
+}
+
+.grid{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 200px;
+}
+
+.handpicked {
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+  }
+  
+  .handpicked h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2980b9; 
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+   
+
+  }
+  
+  .photo-grid img {
+    width: 300px;
+    height: 300px;
+    
+    object-fit: cover;
+  }
+
+  /* Customer Reviews */
+
+
+
+  
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+  .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+
+.reviews{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 300px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 10px solid blueviolet;
+}
+
+.reviews:hover{
+    transform:;
+}
